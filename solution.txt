@@ -1,0 +1,25 @@
+Les 3 classes les moins bien commentés si on se fit sur la classe_BC (classe_DC/ WMC):
+1. XYPlot.java
+	- classe_BC = 0.00156321617935819
+2. CategoryPlot.java
+	- classe_BC = 0.00193574558451852
+3. DatasetUtils.java
+	- classe_BC = 0.00212602459016393
+
+
+Les 3 paquets les moins bien commentés si on se fit sur le paquet_BC (paquet_DC / WCP):
+
+1. jfreechart\src 
+	- paquet_BC = 0.0000385538707804075
+2. jfreechart\src\main\java\org\jfree
+	- paquet_BC = 0.0000567378710848665
+3. jfreechart\src\main\java\org\jfree\chart
+	- paquet_BC = 0.0000715349753462399
+
+Pour augmenter la classe_BC, il suffit d'écrire plus de commentaires par ligne de code pour ainsi
+augmenter la densité de code et conséquemment avoir une classe_BC plus élevé.
+
+Ceci est vrai pour augmenter le paquet_BC également.
+
+classe_BC est le degré selon lequel une classe est bien commentée.
+paquet_BC est le degré selon lequel un paquet est bien commentée.
