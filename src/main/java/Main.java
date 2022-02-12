@@ -32,7 +32,7 @@ public class Main {
             paquetPresent = paquet;
             ecriturePaquetDonnees(fichier_paquets, paquetPresent.getPaquetDirectory().getPath(), paquetPresent.getNom(), paquetPresent.getPaquet_LOC(), paquetPresent.getPaquet_CLOC(), paquetPresent.getPaquet_DC(), paquetPresent.getPaquet_BC(), paquetPresent.getWCP());
         }
-        System.out.println("Réussi, vérifiez le dossier du projet pour csv.");
+        System.out.println("Reussi, verifiez le dossier juste avant 'target/' pour les fichiers csv.");
     }
 
     /**
@@ -124,6 +124,4 @@ public class Main {
             }
         }
     }
-
-
 }
